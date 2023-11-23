@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Hub - Pedro Martins</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #0e1b24;
+        }
+        .api {
+            border: 1px solid #87CEFA;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .api h2 {
+            margin: 0;
+            color: #006400;
+        }
+        .api p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #006400;">API Hub</h1>
+
+    <div class="api">
+        <h2>/auth/sign-up</h2>
+        <p><strong style="color: #006400;">Método:</strong> POST</p>
+        <p><strong style="color: #006400;">Descrição:</strong> Cria um usuário na base de dados.</p>
+        <p><strong style="color: #006400;">Resposta esperada:</strong> Um JSON, com os valores id, data de criação, data de atualização, último login, e o token JWT.</p>
+    </div>
+
+    <div class="api">
+      <h2>/auth/sign-up</h2>
+      <p><strong style="color: #006400;">Método:</strong> POST</p>
+      <p><strong style="color: #006400;">Descrição:</strong> Faz o login de um usuário que já tenha sido cadastrado anteriormente.</p>
+      <p><strong style="color: #006400;">Resposta esperada:</strong> Um JSON, com os valores id, data de criação, data de atualização, último login, e o token JWT.</p>
+  </div>
+
+    <div class="api">
+        <h2>/users/:id</h2>
+        <p><strong style="color: #006400;">Método:</strong> GET</p>
+        <p><strong style="color: #006400;">Descrição:</strong> Retorna um usuário, conforme o id de usuário.</p>
+        <p><strong style="color: #006400;">Resposta esperada:</strong> Um JSON contendo todos os dados do usuário em questão.</p>
+    </div>
+    
+</body>
+</html>
